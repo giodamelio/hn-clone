@@ -1,0 +1,19 @@
+{
+  "name": "hn-clone",
+  "version": "0.1.0",
+  "description": "A simple read-only hackernews client build with React",
+  "author": "Gio d'Amelio",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/giodamelio/hn-clone.git"
+  },
+  "keywords": [
+    "hackernews",
+    "react"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/giodamelio/hn-clone/issues"
+  },
+  "homepage": "https://github.com/giodamelio/hn-clone"
+}
