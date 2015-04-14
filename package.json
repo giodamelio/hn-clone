@@ -16,11 +16,13 @@
     "url": "https://github.com/giodamelio/hn-clone/issues"
   },
   "homepage": "https://github.com/giodamelio/hn-clone",
+  "dependencies": {
+    "react": "^0.13.1"
+  },
   "devDependencies": {
     "babel-core": "^5.1.9",
     "babel-loader": "^5.0.0",
     "html-webpack-plugin": "^1.1.0",
-    "jsx-loader": "^0.13.1",
     "webpack": "^1.8.4",
     "webpack-dev-server": "^1.8.0"
   }

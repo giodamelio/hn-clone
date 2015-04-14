@@ -10,7 +10,7 @@ module.exports = {
     },
     module: {
         loaders: [
-            { test: /\.js$/, loaders: ["babel", "jsx"] },
+            { test: /\.js$/, exclude: /node_modules/, loaders: ["babel"] },
             { test: /\.html$/, loaders: ["copy"]}
         ]
     },
