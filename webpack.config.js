@@ -10,13 +10,20 @@ module.exports = {
     },
     module: {
         loaders: [
-            { test: /\.js$/, exclude: /node_modules/, loaders: ["babel"] },
-            { test: /\.html$/, loaders: ["copy"]}
+            {
+                test: /\.js$/,
+                exclude: /node_modules/,
+                loaders: ["babel"]
+            },
+            {
+                test: /\.html$/,
+                loaders: ["copy"]
+            }
         ]
     },
     plugins: [
         new htmlWebpackPlugin({
-            title: "Hacker News"
+            template: "./src/index.html"
         })
     ]
 };
