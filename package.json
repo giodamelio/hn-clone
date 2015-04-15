@@ -4,7 +4,8 @@
   "description": "A simple read-only hackernews client build with React",
   "author": "Gio d'Amelio",
   "scripts": {
-      "lint": "jscs --esprima=esprima-fb src/index.js"
+      "lint": "jscs --esprima=esprima-fb src/index.js",
+      "dev": "webpack-dev-server --port 3141"
   },
   "repository": {
     "type": "git",
